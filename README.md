@@ -5,6 +5,7 @@
 
 2.protbuf 3.8.0
 
+3. Python 3.6
 ### Step-by-step Tutorial
 
 setting up the environment on **Jetson Nano**, compile the PyTorch model with TVM, and perform instances from camera streaming.
