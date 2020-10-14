@@ -19,7 +19,11 @@ bash ./install_protobuf-3.8.0.sh
 ```
 python3 -m pip install numpy
 python3 -m pip install opencv-python
-
+```
+or
+```
+$ sudo apt-get install python3-opencv
+$ sudo apt-get install python3-numpy
 ```
 You also need add cv2 package to path import search path.
 ```
@@ -27,8 +31,11 @@ export PYTHONPATH=/usr/local/python
 ```
 
 **install pytorch & torchvision**:
+###### follow instruction to install pytorch and torchvision for jetson nano
+https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-6-0-now-available/72048
 ```
-python3 -m pip install torch==1.2.0 & torchvision==0.4.0
+ torch==1.2.0
+ torchvision==0.4.0
 ```
 Build **TVM** with following commands
 ```
