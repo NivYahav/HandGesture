@@ -68,6 +68,10 @@ export cuda toolkit binary to path:
 ```
 export PATH=$PATH:/usr/local/cuda/bin
 ```
+```
+sudo python3 -m pip install pillow==6.2.2
+```
+
 **run**:
 ```
 python3 main.py
