@@ -10,6 +10,11 @@
 
 setting up the environment on **Jetson Nano**, compile the PyTorch model with TVM, and perform instances from camera streaming.
 
+**run**:(may take a while...)
+```
+bash ./install_protobuf-3.8.0.sh
+```
+
 **install OpenCV**:
 ```
 python3 -m pip install numpy
@@ -45,10 +50,7 @@ cd ..
 cd python; sudo python3 setup.py install; cd ..
 cd topi/python; sudo python3 setup.py install; cd ../..
 ```
-**run**:(may take a while...)
-```
-bash ./install_protobuf-3.8.0.sh
-```
+
 
 
 **install onnx**:
