@@ -12,8 +12,9 @@ setting up the environment on **Jetson Nano**, compile the PyTorch model with TV
 
 **install OpenCV**:
 ```
-python3 -m pip install cv2==4.1.1
 python3 -m pip install numpy
+python3 -m pip install opencv-python
+
 ```
 You also need add cv2 package to path import search path.
 ```
